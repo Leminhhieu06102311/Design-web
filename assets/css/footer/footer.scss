@@ -1,0 +1,62 @@
+@import '/assets/css/main.css';
+.footer {
+    margin-top: 8rem;
+    margin-bottom: 100rem;
+    &__list {
+        display: flex;
+        .footer__list-item {
+            width: 50%;
+            .item__heading {
+                font-size: 2.4rem;
+                font-weight: 600;
+            }
+            .item__des {
+                margin-top: 2.5rem;
+                font-size: 1.6rem;
+                width: 70%;
+            }
+            .item__icon {
+                display: flex;
+                margin-top: 3rem;
+                &-instagram,
+                &-tele,
+                &-facebook {
+                    box-shadow: 0 2px 23px rgba(0,0,0,0.1);
+                    margin: 0 1rem;
+                    padding: 1.6rem 2.034rem;
+                    border-radius: 99rem;
+                    font-size: 1.5rem;
+                }
+                &-instagram {
+                    background-color: var(--color-primary);
+                    color: var(--bgc-white);
+                }
+            }
+            .item__list {
+                width: 100%;
+                display: flex;
+                &-contact,
+                &-more,
+                &-company {
+                    width: 30%;
+                    
+                    p {
+                        &:first-child {
+                            font-size: 1.6rem;
+                            font-weight: 600;
+                        }
+                        margin: 1.5rem 0;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        
+    }
+    &__brand {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        color: var(--color-text);
+    }
+}

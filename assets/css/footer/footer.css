@@ -1,0 +1,58 @@
+@import '/assets/css/main.css';
+.footer {
+  margin-top: 8rem;
+  margin-bottom: 100rem;
+}
+.footer__list {
+  display: flex;
+}
+.footer__list .footer__list-item {
+  width: 50%;
+}
+.footer__list .footer__list-item .item__heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.footer__list .footer__list-item .item__des {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+  width: 70%;
+}
+.footer__list .footer__list-item .item__icon {
+  display: flex;
+  margin-top: 3rem;
+}
+.footer__list .footer__list-item .item__icon-instagram, .footer__list .footer__list-item .item__icon-tele, .footer__list .footer__list-item .item__icon-facebook {
+  box-shadow: 0 2px 23px rgba(0, 0, 0, 0.1);
+  margin: 0 1rem;
+  padding: 1.6rem 2.034rem;
+  border-radius: 99rem;
+  font-size: 1.5rem;
+}
+.footer__list .footer__list-item .item__icon-instagram {
+  background-color: var(--color-primary);
+  color: var(--bgc-white);
+}
+.footer__list .footer__list-item .item__list {
+  width: 100%;
+  display: flex;
+}
+.footer__list .footer__list-item .item__list-contact, .footer__list .footer__list-item .item__list-more, .footer__list .footer__list-item .item__list-company {
+  width: 30%;
+}
+.footer__list .footer__list-item .item__list-contact p, .footer__list .footer__list-item .item__list-more p, .footer__list .footer__list-item .item__list-company p {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+.footer__list .footer__list-item .item__list-contact p:first-child, .footer__list .footer__list-item .item__list-more p:first-child, .footer__list .footer__list-item .item__list-company p:first-child {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.footer__brand {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+
+/*# sourceMappingURL=footer.css.map */

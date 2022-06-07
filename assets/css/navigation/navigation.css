@@ -1,0 +1,32 @@
+@import '/assets/css/main.css';
+.navigation {
+  position: fixed;
+  top: var(--height-header);
+  left: 0;
+  margin: 1.7rem 0 0 1rem;
+  bottom: 0;
+}
+.navigation__list {
+  list-style-type: none;
+}
+.navigation__list-item.active {
+  background-color: #E8EBED;
+}
+.navigation__list-item {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  align-items: center;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+}
+.navigation__list-item p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.navigation__list-item:hover {
+  background-color: #E8EBED;
+}
+
+/*# sourceMappingURL=navigation.css.map */

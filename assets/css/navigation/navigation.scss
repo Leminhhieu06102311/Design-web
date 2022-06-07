@@ -1,0 +1,31 @@
+@import '/assets/css/main.css';
+.navigation {
+    position: fixed;
+    top: var(--height-header);
+    left: 0;
+    margin: 1.7rem 0 0 1rem;
+    bottom: 0;
+    &__list {
+        list-style-type: none;
+        &-item.active {
+            background-color: #E8EBED;
+        }
+        &-item {
+            
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem 1rem;
+            align-items: center;
+            border-radius: 2rem;
+            font-size: 1.8rem;
+            p {
+                font-size: 1.3rem;
+                margin-top: .5rem;
+            }
+            &:hover {
+                background-color: #E8EBED;
+            }
+        }
+    }
+}

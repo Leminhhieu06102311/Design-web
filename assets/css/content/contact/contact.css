@@ -1,0 +1,52 @@
+@import '/assets/css/main.css';
+.content__contact {
+  margin-top: 8rem;
+}
+.content__contact-list {
+  border-radius: 1rem;
+  width: 100%;
+  padding: 3rem 0;
+  position: relative;
+  background-color: var(--color-primary);
+}
+.content__contact-list .contact__list-heading {
+  font-weight: 700;
+  font-size: 4rem;
+  color: var(--text-white);
+  text-align: center;
+  padding: 7rem 5rem 0 5rem;
+}
+.content__contact-list .contact__list-svg {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+.content__contact-list .contact__list-search {
+  display: flex;
+  border-radius: 1rem;
+  align-items: center;
+  background-color: var(--bgc-white);
+  padding: 1rem 1rem;
+  z-index: 1;
+  border: 1px solid rgba(153, 153, 153, 0.5);
+}
+.content__contact-list .contact__list-search .search__icon {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+.content__contact-list .contact__list-search .search__input input {
+  width: 50rem;
+  border: none;
+  outline: none;
+}
+.content__contact-list .contact__list-search .search__btn {
+  padding: 1rem 3rem;
+  background-color: var(--color-primary);
+  color: var(--text-white);
+  border-radius: 1rem;
+}
+.content__contact-list .contact__list-search .search__btn p {
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,83 @@
+@import url(/assets/css/main.css);
+.header {
+  height: 6.6rem;
+  width: 100%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__logo-img {
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 1rem;
+  background: linear-gradient(#feb139, rgba(255, 0, 0, 0.77));
+  margin: 0 2rem;
+}
+.header__logo-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+}
+.header__search .header__search-bg {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 42rem;
+  border: 2px solid #E8E8E8;
+}
+.header__search .header__search-bg .header__search-icon {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.header__search .header__search-bg .header__search-icon i {
+  color: #444444;
+}
+.header__search .header__search-bg .header__search-input input {
+  border: none;
+  width: 30rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  outline: none;
+}
+.header__subcribes {
+  display: flex;
+  align-items: center;
+}
+.header__subcribes-title {
+  width: 13.4rem;
+  padding: 9px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--color-primary);
+  text-align: center;
+  margin-right: 2rem;
+}
+.header__subcribes-title p {
+  font-size: 1.4rem;
+  color: #ffff;
+  width: 100%;
+}
+.header__subcribes-title:hover {
+  background-color: rgba(245, 83, 83, 0.9);
+}
+.header__subcribes-title:focus {
+  border: 4px solid rgba(255, 254, 254, 0.5);
+}
+
+/*# sourceMappingURL=header.css.map */
