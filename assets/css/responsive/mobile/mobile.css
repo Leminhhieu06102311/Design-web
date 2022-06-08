@@ -107,6 +107,13 @@
     .footer__list .footer__list-item .item__list-more {
         margin: 1rem 0;
     }
+    .content__price-body .price__body-btn .btn__new,
+    .content__price-body .price__body-btn .btn__old {
+        font-size: 1.3rem;
+    }
+    .content__product-list > div {
+        width: 190rem;
+    }
     
     
     
