@@ -1,9 +1,10 @@
 @import '/assets/css/main.css';
 .footer {
     margin-top: 8rem;
-    margin-bottom: 100rem;
+    margin-bottom: 3rem;
     &__list {
         display: flex;
+        flex-wrap: wrap ;
         .footer__list-item {
             width: 50%;
             .item__heading {

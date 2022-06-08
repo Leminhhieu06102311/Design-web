@@ -4,6 +4,7 @@
 }
 .content__feedback-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .content__feedback-list .feedback__list-item {
   width: 50%;

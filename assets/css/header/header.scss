@@ -15,7 +15,7 @@
     &__logo {
         display: flex;
         align-items: center;
-
+        margin-left: 2rem;
         &-img {
             width: 3.8rem;
             height: 3.8rem;
@@ -27,6 +27,21 @@
         &-title {
             font-size: 1.6rem;
             font-weight: 600;
+        }
+        &-tablet {
+            display: none;
+            i {
+                font-size: 2rem;
+
+            }
+        }
+        &-mobile {
+            margin: 0 2rem;
+            display: none;
+            transform: rotate(90deg);
+            i {
+                font-size: 2rem;
+            }
         }
     }
 

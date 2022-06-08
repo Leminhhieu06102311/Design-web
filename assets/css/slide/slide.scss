@@ -2,14 +2,11 @@
 .slide {
     margin-top: calc(var(--height-header) + 1.7rem);
     height: 27rem;
-    width: 100%;
     display: flex;
     justify-content: center;
-    &__test {
-        width: 6%;
-    }
     &__img {
-        width: 85%;
+        width: 100%;
+        height: 100%;
         position: relative;
         background-image: linear-gradient(to right,#F6F54D,rgba(254, 177, 57, 0.55));
         border-radius: 1rem;
