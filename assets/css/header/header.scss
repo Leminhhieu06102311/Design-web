@@ -15,7 +15,6 @@
     &__logo {
         display: flex;
         align-items: center;
-        margin-left: 2rem;
         &-img {
             width: 3.8rem;
             height: 3.8rem;
@@ -31,9 +30,13 @@
         &-tablet {
             display: none;
             i {
+                transition: .2s ease;
                 font-size: 2rem;
-
+                &:hover {
+                    color: var(--color-primary);
+                }
             }
+
         }
         &-mobile {
             margin: 0 2rem;

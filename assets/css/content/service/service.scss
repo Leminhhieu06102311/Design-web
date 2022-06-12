@@ -1,0 +1,67 @@
+.content {
+    &__service {
+        &-list {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+            .service__list-item {
+                width: 30%;
+                margin-bottom: 6.5rem;
+                border-radius: 1rem;
+                transition: .3s ease-in-out;
+                padding: 2.8rem 2.8rem 2.8rem 4.4rem;
+                box-shadow: 0 1px 15px 2px rgba(0,0,0,0.05);
+                .service__img {
+                    width: 6.1rem;
+                    height: 6.1rem;
+                    background-color: rgba(254, 177, 57,0.1);
+                    border-radius: 999px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+                .service__heading {
+                    font-size: 2rem;
+                    color: #222222;
+                    margin-top: 4.9rem;
+                    font-weight:500;
+                }
+                .service__des {
+                    font-size: 1.5rem;
+                    margin-top: 1rem;
+                }
+                .service__btn {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 4.9rem;
+                    &-icon {
+                        padding: 1.6rem 2.6rem;
+                        border-radius: 1rem;
+                        background-color: var(--color-primary);
+                        &:hover i{
+                            transform: scale(1.2);
+                        }
+                        i {
+                            transition: .2s linear;
+
+                            font-size: 1.8rem;
+                            color: var(--text-white);
+                            
+                        }
+                    }
+                    &-text {
+                        color: var(--color-primary);
+                        font-size: 2rem;
+                        margin: 0 1rem;
+                        font-weight: 600;
+
+                    }
+                }
+                &:hover {
+                    transform: translateY(-1rem);
+                }
+            }
+        }
+    }
+}
